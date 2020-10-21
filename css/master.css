@@ -1,7 +1,7 @@
 body {
 background-image:url(images/FONDWEB.png);
 background-repeat:no-repeat;
-position: absolute;
+position: relative;
 background-color: white}
 
 U {color: #FBCA03;}
@@ -9,7 +9,9 @@ U {color: #FBCA03;}
 nav2{position:relative;
   float: right;
 }
-header{}
+header{background-image:url(images/FONDWEB.png);
+
+position:relative;}
 footer{
   margin-top: 100px;
   text-align: center;
@@ -40,7 +42,7 @@ footer{
 
 .bouton2 a {
 display:inline-block;
-width:100px;
+width:200px;
 line-height:50px;
 text-align:center;
 vertical-align:middle;
@@ -59,14 +61,76 @@ padding: 30px;
 background:black;
 }
 iframe{display:block;
+    border-radius: 20px;}
 
-  	max-width: 100%;
-  	height: auto;
-    margin: 80px;
-  }
+.video {
+  margin: 50px;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
 
-  .scroll{padding-top: 130px;}
+}
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
+.scroll{padding-top: 130px;}
+
+@media screen and (max-width: 1920px)
+{
+    /* Rédigez vos propriétés CSS ici */
+}
+@media all and (max-width: 1024px)
+{
+    nav
+    {
+        width: auto;
+        text-align: center;
+    }
+
+    nav ul
+    {
+        flex-direction: column;
+    }
+
+    nav li
+    {
+        padding-left: 4px;
+    }
+
+    nav a
+    {
+        font-size: 1.5em;
+    }
+
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+    .bouton a {
+    display:inline-block;
+    width:15%;
+    line-height:20px;
+    text-align:center;
+    vertical-align:middle;
+    background:none;
+    color:white;
+    border-radius: 10px;
+    border-width: medium;
+    border-color: white;
+    border-style:solid;
+    text-decoration:none;
+    margin:10px 2.5% 10px 2.5%;
+    padding: 100px;
+
+    
+    }
+}
 
 
 /* Pop up --------------------------------  */
