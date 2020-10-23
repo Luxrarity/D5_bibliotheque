@@ -55,6 +55,7 @@ border-style:solid;
 text-decoration:none;
 margin: 20px;
 padding: 30px;
+flex-direction:column;
 
 }
 .bouton2 a:hover {
@@ -79,7 +80,7 @@ iframe{display:block;
     height: 100%;
 }
 
-.scroll{padding-top: 130px;}
+.scroll{padding-top: 100px;}
 
 @media screen and (max-width: 1920px)
 {
@@ -128,7 +129,7 @@ iframe{display:block;
     margin:10px 2.5% 10px 2.5%;
     padding: 100px;
 
-    
+
     }
 }
 
