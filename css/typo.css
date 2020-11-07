@@ -56,6 +56,31 @@ h3 {
   padding-left: 70px;
   padding-right: 200px;}
 
+  h4 {
+    font-family: 'ohno-blazeface', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    color: #FBCA03;
+    font-size: 3vmax;
+    padding-left: 70px;
+    padding-right: 200px;
+  padding-bottom: -10em;}
+
+  h5 {
+    font-family: 'ohno-blazeface', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    margin-top: 0;
+    font-size: 2vmin;
+    font-size: 5vmax;
+    padding-top: 10px;
+    padding-left: 70px;
+
+    padding-right: 40vmax;
+  }
+
+
+
 
 
 
@@ -78,8 +103,10 @@ a2 {font-family: 'ohno-blazeface', sans-serif;
   font-size: 1em;
   color: #FBCA03;}
 .referencevideo {font-family: 'ohno-blazeface', sans-serif;
+
+    padding-top: 1em;
     font-style: italic;
-    font-size: 1em;
+    font-size: 0.8em;
     color: #BED7FE;}
 
 U{font-family: 'ohno-blazeface', sans-serif;
